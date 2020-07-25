@@ -1,0 +1,40 @@
+<h1 id="tableLabel">Check out the latest from Hacker News!</h1>
+
+<p *ngIf="!stories"><em>Gathering the latest stories, this may take a few seconds...</em></p>
+<p *ngIf="stories"><em>Need to refresh the stories? Simply click the Search button!</em></p>
+<p *ngIf="stories"><em>Happy reading!</em></p>
+
+<div class="search-hero">
+  <table>
+    <tr>
+      <td><input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="Search stories"></td>
+      <td><button (click)="submitFilter()" class="btn btn-primary">Search</button></td>
+    </tr>
+  </table>
+</div>
+
+  <table class="mat-table" style="width:100%">
+    <thead>
+      <tr class="mat-header-row">
+        <th class='mat-header-cell'>Title</th>
+        <th class='mat-header-cell'>Author</th>
+        <th class='mat-header-cell'>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="mat-row" *ngFor="let story of stories">
+        <td class="td">
+          <div [ngSwitch]="!!story.url">
+            <span *ngSwitchCase="true"><a href="{{story.url}}">{{story.title}}</a></span>
+            <span *ngSwitchCase="false">{{story.title}}</span>
+          </div>
+        </td>
+        <td class="mat-cell">{{story.author}}</td>
+        <td class="mat-cell">{{story.time | date:'medium'}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <mat-paginator #paginator *ngIf="stories" [pageSizeOptions]="[10, 25, 50]" [pageSize]="10" [length]="totalElements"
+                 (page)="nextPage($event)">
+
+  </mat-paginator>
