@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Compile\\HNetClient\\NUnitTestProject1\\NUnitTestProject1.csproj": {}
+    "E:\\Compile\\hnet\\NUnitTestProject1\\NUnitTestProject1.csproj": {}
   },
   "projects": {
-    "E:\\Compile\\HNetClient\\hnet\\HNetClient.csproj": {
+    "E:\\Compile\\hnet\\HNetClient\\HNetClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Compile\\HNetClient\\hnet\\HNetClient.csproj",
+        "projectUniqueName": "E:\\Compile\\hnet\\HNetClient\\HNetClient.csproj",
         "projectName": "HNetClient",
-        "projectPath": "E:\\Compile\\HNetClient\\hnet\\HNetClient.csproj",
+        "projectPath": "E:\\Compile\\hnet\\HNetClient\\HNetClient.csproj",
         "packagesPath": "C:\\Users\\dorla\\.nuget\\packages\\",
-        "outputPath": "E:\\Compile\\HNetClient\\hnet\\obj\\",
+        "outputPath": "E:\\Compile\\hnet\\HNetClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dorla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "E:\\Compile\\HNetClient\\NUnitTestProject1\\NUnitTestProject1.csproj": {
+    "E:\\Compile\\hnet\\NUnitTestProject1\\NUnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Compile\\HNetClient\\NUnitTestProject1\\NUnitTestProject1.csproj",
+        "projectUniqueName": "E:\\Compile\\hnet\\NUnitTestProject1\\NUnitTestProject1.csproj",
         "projectName": "NUnitTestProject1",
-        "projectPath": "E:\\Compile\\HNetClient\\NUnitTestProject1\\NUnitTestProject1.csproj",
+        "projectPath": "E:\\Compile\\hnet\\NUnitTestProject1\\NUnitTestProject1.csproj",
         "packagesPath": "C:\\Users\\dorla\\.nuget\\packages\\",
-        "outputPath": "E:\\Compile\\HNetClient\\NUnitTestProject1\\obj\\",
+        "outputPath": "E:\\Compile\\hnet\\NUnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dorla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Compile\\HNetClient\\hnet\\HNetClient.csproj": {
-                "projectPath": "E:\\Compile\\HNetClient\\hnet\\HNetClient.csproj"
+              "E:\\Compile\\hnet\\HNetClient\\HNetClient.csproj": {
+                "projectPath": "E:\\Compile\\hnet\\HNetClient\\HNetClient.csproj"
               }
             }
           }

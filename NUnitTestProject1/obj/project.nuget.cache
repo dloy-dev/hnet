@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BeJAp+GBKdJ6q9zlMDRlz4x+a8cAaHG/3Ual/eMVPFVaojgphMRwiCXBLXfiC1gi6Kjq5xiOPhdwG/idZgTrcg==",
+  "dgSpecHash": "x8qYqQ+dgZKiijCXguXe93ibfo6/SjEQmR/vzVRJshpT8xhuwbeUxsI7xiaeViYXYLZP2e9oeHyATjTm2PJ/Bg==",
   "success": true,
-  "projectFilePath": "E:\\Compile\\HNetClient\\NUnitTestProject1\\NUnitTestProject1.csproj",
+  "projectFilePath": "E:\\Compile\\hnet\\NUnitTestProject1\\NUnitTestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dorla\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\dorla\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.6\\microsoft.aspnetcore.nodeservices.3.1.6.nupkg.sha512",
